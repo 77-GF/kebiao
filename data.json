@@ -1,0 +1,688 @@
+{
+  "courses": [
+    {
+      "id": "mtmcsbbcqv3m",
+      "name": "计算机网络与应用",
+      "teacher": "刘义",
+      "room": "物_406",
+      "note": "",
+      "day": 0,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#3b5bdb",
+      "type": "course"
+    },
+    {
+      "id": "mtmctxnp1km4",
+      "name": "人工智能",
+      "teacher": "刘晓旻",
+      "room": "南2_404",
+      "note": "",
+      "day": 0,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#e64980",
+      "type": "course"
+    },
+    {
+      "id": "mtmcv7ywy9f4",
+      "name": "传感器原理与应用",
+      "teacher": "孔德志",
+      "room": "物_203",
+      "note": "",
+      "day": 1,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "color": "#0b7285",
+      "type": "course"
+    },
+    {
+      "id": "mtmcwvpkg4xa",
+      "name": "自动控制原理",
+      "teacher": "张楠",
+      "room": "数_304",
+      "note": "",
+      "day": 1,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        1,
+        3,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "color": "#5f3dc4",
+      "type": "course"
+    },
+    {
+      "id": "mtmcy0t0mqml",
+      "name": "数字图像处理",
+      "teacher": "田勇志",
+      "room": "数_306",
+      "note": "",
+      "day": 1,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "color": "#f08c00",
+      "type": "course"
+    },
+    {
+      "id": "mtmczcccva69",
+      "name": "模拟电子技术实验",
+      "teacher": "程子霞",
+      "room": "",
+      "note": "",
+      "day": 1,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "color": "#0ca678",
+      "type": "course"
+    },
+    {
+      "id": "mtmd05ybk7yp",
+      "name": "模拟电子技术实验",
+      "teacher": "程子霞",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "color": "#0ca678",
+      "type": "course"
+    },
+    {
+      "id": "mtmd10o6jlas",
+      "name": "自动控制原理",
+      "teacher": "张楠",
+      "room": "数_304",
+      "note": "",
+      "day": 3,
+      "startSection": 1,
+      "endSection": 2,
+      "weeks": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#5f3dc4",
+      "type": "course"
+    },
+    {
+      "id": "mtmd1z6chme4",
+      "name": "传感器原理与应用",
+      "teacher": "孔德志",
+      "room": "物_203",
+      "note": "",
+      "day": 3,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "color": "#0b7285",
+      "type": "course"
+    },
+    {
+      "id": "mtmd2vc0yt7t",
+      "name": "数字信号处理",
+      "teacher": "张晓芳",
+      "room": "数_304",
+      "note": "",
+      "day": 3,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#d9480f",
+      "type": "course"
+    },
+    {
+      "id": "mtmd5nkx8yev",
+      "name": "数字图像处理实验",
+      "teacher": "田勇志",
+      "room": "计算机应用实验室1  N409",
+      "note": "",
+      "day": 4,
+      "startSection": 1,
+      "endSection": 4,
+      "weeks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "color": "#e64980",
+      "type": "course"
+    },
+    {
+      "id": "mtmd7okzxm94",
+      "name": "大学生职业生涯规划与就业指导",
+      "teacher": "钟科代",
+      "room": "北5_101",
+      "note": "",
+      "day": 4,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "color": "#c92a2a",
+      "type": "course"
+    },
+    {
+      "id": "mtmd8mvlu5rk",
+      "name": "传感器原理与应用",
+      "teacher": "孔德志",
+      "room": "物_203",
+      "note": "",
+      "day": 6,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        2
+      ],
+      "color": "#0b7285",
+      "type": "course"
+    },
+    {
+      "id": "mtmdadjprphv",
+      "name": "传感器原理与应用",
+      "teacher": "曾龙辉",
+      "room": "物_203",
+      "note": "",
+      "day": 1,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "color": "#0b7285",
+      "type": "course"
+    },
+    {
+      "id": "mtmdbhp3bm8o",
+      "name": "数字信号处理",
+      "teacher": "张晓芳",
+      "room": "数_304",
+      "note": "",
+      "day": 1,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "color": "#c92a2a",
+      "type": "course"
+    },
+    {
+      "id": "mtmdk8q5a629",
+      "name": "形势与政策",
+      "teacher": "任怡",
+      "room": "北4_303",
+      "note": "",
+      "day": 2,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "color": "#e03131",
+      "type": "course"
+    },
+    {
+      "id": "mtmdl7ompvsq",
+      "name": "传感器原理实验",
+      "teacher": "苏建坡",
+      "room": "N404",
+      "note": "",
+      "day": 2,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#e8590c",
+      "type": "course"
+    },
+    {
+      "id": "mtmdm7ms28vz",
+      "name": "传感器原理实验",
+      "teacher": "苏建坡",
+      "room": "N404",
+      "note": "",
+      "day": 2,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#e8590c",
+      "type": "course"
+    },
+    {
+      "id": "mtmdn1u3vd01",
+      "name": "计算机网络与应用实验",
+      "teacher": "张斌",
+      "room": "N406",
+      "note": "",
+      "day": 2,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#364fc7",
+      "type": "course"
+    },
+    {
+      "id": "mtmdormumpm6",
+      "name": "传感器原理与应用",
+      "teacher": "曾龙辉",
+      "room": "物_203",
+      "note": "",
+      "day": 3,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        11,
+        13,
+        15
+      ],
+      "color": "#0b7285",
+      "type": "course"
+    },
+    {
+      "id": "mtmdq0cdiaco",
+      "name": "自动控制原理实验",
+      "teacher": "张楠",
+      "room": "N404A",
+      "note": "",
+      "day": 3,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "color": "#5f3dc4",
+      "type": "course"
+    },
+    {
+      "id": "mtmdqxjcs3cs",
+      "name": "数字图像处理实验",
+      "teacher": "田勇志",
+      "room": "N409",
+      "note": "",
+      "day": 4,
+      "startSection": 1,
+      "endSection": 4,
+      "weeks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "color": "#f08c00",
+      "type": "course"
+    },
+    {
+      "id": "mtmdt70fit32",
+      "name": "数字信号处理实验",
+      "teacher": "张晓芳",
+      "room": "N409",
+      "note": "",
+      "day": 4,
+      "startSection": 7,
+      "endSection": 10,
+      "weeks": [
+        12,
+        14,
+        16
+      ],
+      "color": "#364fc7",
+      "type": "course"
+    },
+    {
+      "id": "mtmduyrm1v0p",
+      "name": "传感器原理与应用",
+      "teacher": "孔德志",
+      "room": "物_203",
+      "note": "",
+      "day": 6,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        2
+      ],
+      "color": "#0b7285",
+      "type": "course"
+    },
+    {
+      "id": "mtmdvuc51amq",
+      "name": "自动控制原理",
+      "teacher": "张楠",
+      "room": "数_304",
+      "note": "",
+      "day": 6,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        2
+      ],
+      "color": "#5f3dc4",
+      "type": "course"
+    },
+    {
+      "id": "mtmdwgn083c6",
+      "name": "数字图像处理",
+      "teacher": "田勇志",
+      "room": "数_306",
+      "note": "",
+      "day": 6,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        2
+      ],
+      "color": "#1971c2",
+      "type": "course"
+    },
+    {
+      "id": "mtmeep6hhiea",
+      "name": "数学建模开始",
+      "teacher": "",
+      "room": "",
+      "note": "18:00开始",
+      "day": 3,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [
+        1
+      ],
+      "color": "#e64980",
+      "type": "plan"
+    },
+    {
+      "id": "mtmef93alamu",
+      "name": "数学建模",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 4,
+      "startSection": 1,
+      "endSection": 10,
+      "weeks": [
+        1
+      ],
+      "color": "#e64980",
+      "type": "plan"
+    },
+    {
+      "id": "mtmefmrnruca",
+      "name": "数学建模",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 5,
+      "startSection": 1,
+      "endSection": 10,
+      "weeks": [
+        1
+      ],
+      "color": "#e64980",
+      "type": "plan"
+    },
+    {
+      "id": "mtmejs6w2but",
+      "name": "数学建模",
+      "teacher": "",
+      "room": "",
+      "note": "20:00结束",
+      "day": 6,
+      "startSection": 1,
+      "endSection": 10,
+      "weeks": [
+        1
+      ],
+      "color": "#e64980",
+      "type": "plan"
+    },
+    {
+      "id": "mto3p8c9lcsr",
+      "name": "郑创计划",
+      "teacher": "",
+      "room": "",
+      "note": "14:30-16:30",
+      "day": 2,
+      "startSection": 5,
+      "endSection": 8,
+      "weeks": [
+        1
+      ],
+      "color": "#1971c2",
+      "type": "plan"
+    },
+    {
+      "id": "mto3qtxb5aj7",
+      "name": "郑创计划",
+      "teacher": "",
+      "room": "",
+      "note": "10:30-12:30",
+      "day": 3,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        1
+      ],
+      "color": "#1971c2",
+      "type": "plan"
+    }
+  ],
+  "view": "week",
+  "times": [
+    [
+      "08:00",
+      "08:45"
+    ],
+    [
+      "08:55",
+      "09:40"
+    ],
+    [
+      "10:10",
+      "10:55"
+    ],
+    [
+      "11:05",
+      "11:50"
+    ],
+    [
+      "14:00",
+      "14:45"
+    ],
+    [
+      "14:55",
+      "15:40"
+    ],
+    [
+      "16:00",
+      "16:45"
+    ],
+    [
+      "16:55",
+      "17:40"
+    ],
+    [
+      "19:00",
+      "19:45"
+    ],
+    [
+      "19:55",
+      "20:40"
+    ]
+  ],
+  "semesterStart": "2026-09-07",
+  "totalWeeks": 20,
+  "viewWeek": null
+}
