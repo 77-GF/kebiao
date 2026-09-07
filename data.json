@@ -637,6 +637,19 @@
       ],
       "color": "#1971c2",
       "type": "plan"
+    },
+    {
+      "id": "mtreh1a3fpaz",
+      "name": "想小李",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 5,
+      "startSection": 1,
+      "endSection": 10,
+      "weeks": [],
+      "color": "#e64980",
+      "type": "plan"
     }
   ],
   "view": "week",
@@ -684,5 +697,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": null
+  "viewWeek": 2
 }
