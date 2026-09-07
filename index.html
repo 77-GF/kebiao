@@ -341,6 +341,59 @@ function loadState(){
 const state = loadState();
 function save(){ localStorage.setItem(KEY, JSON.stringify(state)); }
 
+/* ================= 云端同步（GitHub data.json） ================= */
+const SYNC_KEY = 'kebiao-sync';
+function getSync(){ try { return JSON.parse(localStorage.getItem(SYNC_KEY)) || {}; } catch(e){ return {}; } }
+function setSync(s){ localStorage.setItem(SYNC_KEY, JSON.stringify(s)); }
+
+function normalizeCloud(c){
+  const base = { courses:[], view:'week', times:DEFAULT_TIMES, semesterStart:'', totalWeeks:20, viewWeek:null };
+  const d = Object.assign(base, c || {});
+  if (!Array.isArray(d.times) || d.times.length===0) d.times = DEFAULT_TIMES;
+  if (!(Number(d.totalWeeks)>0)) d.totalWeeks = 20;
+  (d.courses||[]).forEach(x=>{ if(!x.type) x.type='course'; if(!Array.isArray(x.weeks)) x.weeks=[]; });
+  return d;
+}
+
+async function fetchCloud(){
+  try {
+    const res = await fetch('./data.json?t=' + Date.now(), { cache:'no-store' });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (data && Array.isArray(data.courses)) return normalizeCloud(data);
+    return null;
+  } catch(e){ return null; }
+}
+
+async function pushCloud(){
+  const s = getSync();
+  if (!s.token || !s.owner || !s.repo) return; // 未配置同步，静默跳过
+  const json = JSON.stringify(state, null, 2);
+  const content = btoa(unescape(encodeURIComponent(json))); // UTF-8 -> base64
+  const api = `https://api.github.com/repos/${s.owner}/${s.repo}/contents/data.json`;
+  try {
+    let sha = '';
+    try {
+      const r = await fetch(api, { headers:{ Authorization:'Bearer '+s.token } });
+      if (r.ok){ const d = await r.json(); sha = d.sha || ''; }
+    } catch(e){}
+    const body = { message: '更新课表', content };
+    if (sha) body.sha = sha;
+    const res = await fetch(api, { method:'PUT', headers:{ Authorization:'Bearer '+s.token, 'Content-Type':'application/json' }, body: JSON.stringify(body) });
+    if (res.ok){ toast('已同步到云端'); }
+    else { const e = await res.json().catch(()=>null); toast('同步失败：' + ((e&&e.message)||('HTTP '+res.status))); }
+  } catch(e){ toast('同步失败（网络）'); }
+}
+
+// 打开页面时异步拉取云端最新数据（作者和读者都适用）
+fetchCloud().then(cloud => {
+  if (cloud){
+    Object.assign(state, cloud);
+    save();
+    if (document.readyState !== 'loading') render();
+  }
+});
+
 const now = new Date();
 const todayIdx = (now.getDay()+6)%7; // 周一=0
 let selectedDay = todayIdx;
@@ -617,11 +670,11 @@ $('fSave').addEventListener('click', ()=>{
     day:curDay, startSection:curStart, endSection:curEnd, weeks, color:curColor, type:curType };
   if (editingId){ const i=state.courses.findIndex(x=>x.id===editingId); state.courses[i]=Object.assign(state.courses[i], obj); }
   else state.courses.push(Object.assign({id:uid()}, obj));
-  save(); closeEditor(); render();
+  save(); pushCloud(); closeEditor(); render();
 });
 $('fDelete').addEventListener('click', ()=>{
   state.courses = state.courses.filter(x=>x.id!==editingId);
-  save(); closeEditor(); render(); toast('已删除');
+  save(); pushCloud(); closeEditor(); render(); toast('已删除');
 });
 $('fCancel').addEventListener('click', closeEditor);
 $('mask').addEventListener('click', e=>{ if(e.target===e.currentTarget) closeEditor(); });
@@ -649,6 +702,7 @@ $('btnMenu').addEventListener('click', ()=>{
     ['节次时间设置', editTimes],
     ['设置开学日期', editSemester],
     ['本学期总周数', editTotalWeeks],
+    ['云端同步设置', editSync],
   ];
   showMenu(items);
 });
@@ -687,7 +741,7 @@ function importJSON(){
   inp.click();
 }
 function clearAll(){
-  if (window.confirm('确定清空全部课程？此操作不可撤销。')){ state.courses=[]; save(); render(); toast('已清空'); }
+  if (window.confirm('确定清空全部课程？此操作不可撤销。')){ state.courses=[]; save(); pushCloud(); render(); toast('已清空'); }
 }
 function editTimes(){
   const cur = state.times.map(t=>t.join('-')).join('\n');
@@ -707,6 +761,31 @@ function editTotalWeeks(){
   if (v===null) return;
   const n=parseInt(v);
   if(!isNaN(n) && n>0){ state.totalWeeks=n; save(); render(); toast('总周数已设为 '+n); }
+}
+function editSync(){
+  const s = getSync();
+  let h = `<div class="sheet">
+    <h3>云端同步设置</h3>
+    <p class="sub-hint">配置后，你每次保存课表都会自动推送到 GitHub，别人打开你的网址即可看到最新（只读）。</p>
+    <div class="field"><label>GitHub 用户名</label><input type="text" id="sOwner" placeholder="如 77-gf" value="${esc(s.owner||'')}" /></div>
+    <div class="field"><label>仓库名</label><input type="text" id="sRepo" placeholder="如 kebiao" value="${esc(s.repo||'')}" /></div>
+    <div class="field"><label>Personal Access Token（有 repo 权限）</label><input type="text" id="sToken" placeholder="ghp_..." value="${esc(s.token||'')}" /></div>
+    <div class="field" style="font-size:12px;color:var(--text-2)">Token 只保存在你这台设备的浏览器里，不会发给别人；对方只读、无需 Token。</div>
+    <div class="sheet-actions">
+      <button class="btn" id="sCancel">取消</button>
+      <button class="btn primary" id="sSave">保存</button>
+    </div>
+  </div>`;
+  const mask = document.createElement('div'); mask.className='mask show'; mask.innerHTML=h;
+  mask.querySelector('#sCancel').onclick = ()=>mask.remove();
+  mask.querySelector('#sSave').onclick = ()=>{
+    setSync({ owner:mask.querySelector('#sOwner').value.trim(), repo:mask.querySelector('#sRepo').value.trim(), token:mask.querySelector('#sToken').value.trim() });
+    mask.remove();
+    const ok = getSync().token && getSync().owner && getSync().repo;
+    toast(ok ? '同步设置已保存，现在保存课表会同步到云端' : '已清空同步设置');
+    if (ok) pushCloud();
+  };
+  document.body.appendChild(mask);
 }
 
 /* ================= 其他 ================= */
