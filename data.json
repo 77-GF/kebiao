@@ -637,6 +637,19 @@
       ],
       "color": "#1971c2",
       "type": "plan"
+    },
+    {
+      "id": "mtrwdq6m7lf4",
+      "name": "健身",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 1,
+      "startSection": 1,
+      "endSection": 2,
+      "weeks": [],
+      "color": "#f08c00",
+      "type": "plan"
     }
   ],
   "view": "week",
@@ -684,5 +697,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 2
+  "viewWeek": null
 }
