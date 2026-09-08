@@ -652,6 +652,21 @@
       ],
       "color": "#f08c00",
       "type": "plan"
+    },
+    {
+      "id": "mtsus3tg78j2",
+      "name": "健身洗澡",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 1,
+      "endSection": 2,
+      "weeks": [
+        1
+      ],
+      "color": "#f08c00",
+      "type": "plan"
     }
   ],
   "view": "week",
