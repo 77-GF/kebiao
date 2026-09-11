@@ -667,6 +667,21 @@
       ],
       "color": "#f08c00",
       "type": "plan"
+    },
+    {
+      "id": "mtwbu0lgf7da",
+      "name": "健身",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 4,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        1
+      ],
+      "color": "#f08c00",
+      "type": "plan"
     }
   ],
   "view": "week",
