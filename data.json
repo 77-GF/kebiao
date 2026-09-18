@@ -519,21 +519,6 @@
       "type": "course"
     },
     {
-      "id": "mtmdwgn083c6",
-      "name": "数字图像处理",
-      "teacher": "田勇志",
-      "room": "数_306",
-      "note": "",
-      "day": 6,
-      "startSection": 7,
-      "endSection": 8,
-      "weeks": [
-        2
-      ],
-      "color": "#1971c2",
-      "type": "course"
-    },
-    {
       "id": "mtmeep6hhiea",
       "name": "数学建模开始",
       "teacher": "",
