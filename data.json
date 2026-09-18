@@ -519,21 +519,6 @@
       "type": "course"
     },
     {
-      "id": "mtmdvuc51amq",
-      "name": "自动控制原理",
-      "teacher": "张楠",
-      "room": "数_304",
-      "note": "",
-      "day": 6,
-      "startSection": 5,
-      "endSection": 6,
-      "weeks": [
-        2
-      ],
-      "color": "#5f3dc4",
-      "type": "course"
-    },
-    {
       "id": "mtmdwgn083c6",
       "name": "数字图像处理",
       "teacher": "田勇志",
