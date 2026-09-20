@@ -710,6 +710,19 @@
       ],
       "color": "#5f3dc4",
       "type": "course"
+    },
+    {
+      "id": "mu9b0qbb1an7",
+      "name": "数字信号处理",
+      "teacher": "张晓芳",
+      "room": "数_306",
+      "note": "",
+      "day": 6,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [],
+      "color": "#e03131",
+      "type": "course"
     }
   ],
   "view": "week",
