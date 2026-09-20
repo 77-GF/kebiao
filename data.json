@@ -693,7 +693,9 @@
       "day": 4,
       "startSection": 4,
       "endSection": 4,
-      "weeks": [],
+      "weeks": [
+        2
+      ],
       "color": "#f08c00",
       "type": "plan"
     },
@@ -788,5 +790,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": null
+  "viewWeek": 3
 }
