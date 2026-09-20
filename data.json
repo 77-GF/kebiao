@@ -678,8 +678,7 @@
       "startSection": 7,
       "endSection": 10,
       "weeks": [
-        2,
-        3
+        2
       ],
       "color": "#e64980",
       "type": "plan"
@@ -693,9 +692,7 @@
       "day": 4,
       "startSection": 4,
       "endSection": 4,
-      "weeks": [
-        2
-      ],
+      "weeks": [],
       "color": "#f08c00",
       "type": "plan"
     },
@@ -728,6 +725,19 @@
       ],
       "color": "#f08c00",
       "type": "course"
+    },
+    {
+      "id": "mu9ocfiojqv7",
+      "name": "可以问问我在干嘛",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 6,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [],
+      "color": "#9c36b5",
+      "type": "plan"
     }
   ],
   "view": "week",
@@ -775,5 +785,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 3
+  "viewWeek": null
 }
