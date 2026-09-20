@@ -695,6 +695,21 @@
       "weeks": [],
       "color": "#f08c00",
       "type": "plan"
+    },
+    {
+      "id": "mu9azu0bpjqr",
+      "name": "自动控制原理",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 6,
+      "startSection": 5,
+      "endSection": 6,
+      "weeks": [
+        2
+      ],
+      "color": "#3b5bdb",
+      "type": "course"
     }
   ],
   "view": "week",
@@ -742,5 +757,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 2
+  "viewWeek": null
 }
