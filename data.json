@@ -699,8 +699,8 @@
     {
       "id": "mu9azu0bpjqr",
       "name": "自动控制原理",
-      "teacher": "",
-      "room": "",
+      "teacher": "张楠",
+      "room": "数_304",
       "note": "",
       "day": 6,
       "startSection": 5,
@@ -708,7 +708,7 @@
       "weeks": [
         2
       ],
-      "color": "#3b5bdb",
+      "color": "#5f3dc4",
       "type": "course"
     }
   ],
