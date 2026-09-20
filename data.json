@@ -720,8 +720,10 @@
       "day": 6,
       "startSection": 7,
       "endSection": 8,
-      "weeks": [],
-      "color": "#e03131",
+      "weeks": [
+        2
+      ],
+      "color": "#e8590c",
       "type": "course"
     }
   ],
