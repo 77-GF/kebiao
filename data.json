@@ -678,7 +678,8 @@
       "startSection": 7,
       "endSection": 10,
       "weeks": [
-        2
+        2,
+        3
       ],
       "color": "#e64980",
       "type": "plan"
