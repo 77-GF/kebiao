@@ -877,7 +877,7 @@
       "note": "",
       "day": 0,
       "startSection": 7,
-      "endSection": 10,
+      "endSection": 8,
       "weeks": [
         6
       ],
@@ -945,5 +945,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 5
+  "viewWeek": null
 }
