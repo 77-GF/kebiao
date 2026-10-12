@@ -135,26 +135,6 @@
       "type": "course"
     },
     {
-      "id": "mtmczcccva69",
-      "name": "模拟电子技术实验",
-      "teacher": "程子霞",
-      "room": "",
-      "note": "",
-      "day": 1,
-      "startSection": 9,
-      "endSection": 10,
-      "weeks": [
-        1,
-        2,
-        3,
-        4,
-        6,
-        7
-      ],
-      "color": "#0ca678",
-      "type": "course"
-    },
-    {
       "id": "mtmd05ybk7yp",
       "name": "模拟电子技术实验",
       "teacher": "程子霞",
