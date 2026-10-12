@@ -135,6 +135,26 @@
       "type": "course"
     },
     {
+      "id": "mtmd05ybk7yp",
+      "name": "模拟电子技术实验",
+      "teacher": "程子霞",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "color": "#0ca678",
+      "type": "course"
+    },
+    {
       "id": "mtmd10o6jlas",
       "name": "自动控制原理",
       "teacher": "张楠",
@@ -718,36 +738,6 @@
       ],
       "color": "#e64980",
       "type": "plan"
-    },
-    {
-      "id": "mv4te556imox",
-      "name": "模电实验",
-      "teacher": "",
-      "room": "",
-      "note": "",
-      "day": 2,
-      "startSection": 9,
-      "endSection": 10,
-      "weeks": [
-        7,
-        8,
-        9
-      ],
-      "color": "#2f9e44",
-      "type": "course"
-    },
-    {
-      "id": "mv4tf4lm8cda",
-      "name": "数电实验",
-      "teacher": "",
-      "room": "",
-      "note": "",
-      "day": 2,
-      "startSection": 9,
-      "endSection": 10,
-      "weeks": [],
-      "color": "#0ca678",
-      "type": "course"
     }
   ],
   "view": "week",
@@ -795,5 +785,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 7
+  "viewWeek": 1
 }
