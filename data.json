@@ -738,7 +738,7 @@
     },
     {
       "id": "mv4tf4lm8cda",
-      "name": "模电实验",
+      "name": "数电实验",
       "teacher": "",
       "room": "",
       "note": "",
@@ -746,7 +746,7 @@
       "startSection": 9,
       "endSection": 10,
       "weeks": [],
-      "color": "#2f9e44",
+      "color": "#0ca678",
       "type": "course"
     }
   ],
@@ -795,5 +795,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": null
+  "viewWeek": 7
 }
