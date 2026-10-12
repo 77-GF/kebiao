@@ -718,6 +718,21 @@
       ],
       "color": "#e64980",
       "type": "plan"
+    },
+    {
+      "id": "mv4w46wlvl93",
+      "name": "模电实验",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [
+        6
+      ],
+      "color": "#2b8a3e",
+      "type": "course"
     }
   ],
   "view": "week",
