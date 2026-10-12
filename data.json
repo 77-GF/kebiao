@@ -772,6 +772,23 @@
       ],
       "color": "#1971c2",
       "type": "course"
+    },
+    {
+      "id": "mv4w7jg1tj3e",
+      "name": "数电实验",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 0,
+      "startSection": 9,
+      "endSection": 10,
+      "weeks": [
+        10,
+        11,
+        12
+      ],
+      "color": "#364fc7",
+      "type": "course"
     }
   ],
   "view": "week",
@@ -819,5 +836,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 7
+  "viewWeek": 10
 }
