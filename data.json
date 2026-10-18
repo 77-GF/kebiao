@@ -842,7 +842,7 @@
       "weeks": [
         14
       ],
-      "color": "#1971c2",
+      "color": "#364fc7",
       "type": "course"
     }
   ],
@@ -891,5 +891,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 13
+  "viewWeek": 14
 }
