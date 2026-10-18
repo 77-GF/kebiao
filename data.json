@@ -748,7 +748,6 @@
       "startSection": 9,
       "endSection": 10,
       "weeks": [
-        10,
         11,
         12
       ],
@@ -878,5 +877,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 18
+  "viewWeek": 10
 }
