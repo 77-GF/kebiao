@@ -773,22 +773,6 @@
       "type": "course"
     },
     {
-      "id": "mv4wai951dlp",
-      "name": "模电实验",
-      "teacher": "",
-      "room": "",
-      "note": "",
-      "day": 1,
-      "startSection": 9,
-      "endSection": 10,
-      "weeks": [
-        14,
-        15
-      ],
-      "color": "#2b8a3e",
-      "type": "course"
-    },
-    {
       "id": "mv4wd5bl1usi",
       "name": "数电实验",
       "teacher": "",
