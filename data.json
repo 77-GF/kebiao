@@ -844,6 +844,21 @@
       ],
       "color": "#364fc7",
       "type": "course"
+    },
+    {
+      "id": "mvdomc2avef8",
+      "name": "数电实验",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 3,
+      "endSection": 4,
+      "weeks": [
+        14
+      ],
+      "color": "#364fc7",
+      "type": "course"
     }
   ],
   "view": "week",
