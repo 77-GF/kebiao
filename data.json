@@ -906,6 +906,21 @@
       "weeks": [],
       "color": "#e64980",
       "type": "plan"
+    },
+    {
+      "id": "mvf40dg2tjp7",
+      "name": "郑创",
+      "teacher": "",
+      "room": "",
+      "note": "11:30-12:30",
+      "day": 3,
+      "startSection": 5,
+      "endSection": 5,
+      "weeks": [
+        7
+      ],
+      "color": "#e64980",
+      "type": "plan"
     }
   ],
   "view": "week",
