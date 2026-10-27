@@ -730,6 +730,9 @@
       "endSection": 10,
       "weeks": [
         7,
+        8,
+        9,
+        10,
         11
       ],
       "color": "#364fc7",
@@ -952,7 +955,7 @@
       "type": "plan"
     },
     {
-      "id": "mvqowiaplhdn",
+      "id": "mvqoxbt8ws07",
       "name": "数电实验",
       "teacher": "",
       "room": "",
@@ -965,7 +968,7 @@
         9,
         10
       ],
-      "color": "#3b5bdb",
+      "color": "#364fc7",
       "type": "course"
     }
   ],
