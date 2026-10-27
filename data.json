@@ -953,6 +953,23 @@
       ],
       "color": "#e64980",
       "type": "plan"
+    },
+    {
+      "id": "mvqowiaplhdn",
+      "name": "数电实验",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 6,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        8,
+        9,
+        10
+      ],
+      "color": "#3b5bdb",
+      "type": "course"
     }
   ],
   "view": "week",
