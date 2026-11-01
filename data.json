@@ -981,6 +981,21 @@
       ],
       "color": "#e64980",
       "type": "course"
+    },
+    {
+      "id": "mvxwecfmxep3",
+      "name": "郑创",
+      "teacher": "",
+      "room": "",
+      "note": "8:30-9:30",
+      "day": 1,
+      "startSection": 2,
+      "endSection": 2,
+      "weeks": [
+        9
+      ],
+      "color": "#e64980",
+      "type": "plan"
     }
   ],
   "view": "week",
