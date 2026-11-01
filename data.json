@@ -1006,7 +1006,9 @@
       "day": 2,
       "startSection": 9,
       "endSection": 9,
-      "weeks": [],
+      "weeks": [
+        9
+      ],
       "color": "#e64980",
       "type": "plan"
     },
