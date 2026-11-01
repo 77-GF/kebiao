@@ -967,6 +967,21 @@
       ],
       "color": "#364fc7",
       "type": "course"
+    },
+    {
+      "id": "mvxw9jt3d7ai",
+      "name": "人工智能",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        9
+      ],
+      "color": "#e64980",
+      "type": "course"
     }
   ],
   "view": "week",
@@ -1014,5 +1029,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 8
+  "viewWeek": 9
 }
