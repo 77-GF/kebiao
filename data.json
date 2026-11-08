@@ -1047,14 +1047,14 @@
       "name": "数电实验",
       "teacher": "",
       "room": "",
-      "note": "",
+      "note": "调",
       "day": 0,
       "startSection": 7,
       "endSection": 8,
       "weeks": [
         11
       ],
-      "color": "#364fc7",
+      "color": "#1971c2",
       "type": "course"
     }
   ],
