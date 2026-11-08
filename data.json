@@ -719,22 +719,6 @@
       "type": "plan"
     },
     {
-      "id": "mv4w6ci10c4g",
-      "name": "数电实验",
-      "teacher": "",
-      "room": "",
-      "note": "",
-      "day": 2,
-      "startSection": 9,
-      "endSection": 10,
-      "weeks": [
-        7,
-        11
-      ],
-      "color": "#364fc7",
-      "type": "course"
-    },
-    {
       "id": "mv4w9mcayo96",
       "name": "数电实验",
       "teacher": "",
