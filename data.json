@@ -1023,6 +1023,21 @@
       ],
       "color": "#364fc7",
       "type": "course"
+    },
+    {
+      "id": "mw7v9mrxwg5a",
+      "name": "模电实验",
+      "teacher": "",
+      "room": "",
+      "note": "调",
+      "day": 2,
+      "startSection": 1,
+      "endSection": 4,
+      "weeks": [
+        11
+      ],
+      "color": "#0ca678",
+      "type": "course"
     }
   ],
   "view": "week",
@@ -1070,5 +1085,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 12
+  "viewWeek": 11
 }
