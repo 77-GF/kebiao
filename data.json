@@ -964,21 +964,6 @@
       "type": "course"
     },
     {
-      "id": "mw7t3anb8h5q",
-      "name": "数电实验",
-      "teacher": "",
-      "room": "",
-      "note": "调",
-      "day": 2,
-      "startSection": 3,
-      "endSection": 4,
-      "weeks": [
-        12
-      ],
-      "color": "#1971c2",
-      "type": "course"
-    },
-    {
       "id": "mw7tdue0aytv",
       "name": "数电实验",
       "teacher": "",
