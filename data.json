@@ -1067,6 +1067,21 @@
       ],
       "color": "#1971c2",
       "type": "course"
+    },
+    {
+      "id": "mwlipfacdxj7",
+      "name": "郑创",
+      "teacher": "",
+      "room": "",
+      "note": "",
+      "day": 2,
+      "startSection": 7,
+      "endSection": 8,
+      "weeks": [
+        11
+      ],
+      "color": "#e64980",
+      "type": "plan"
     }
   ],
   "view": "week",
@@ -1114,5 +1129,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 12
+  "viewWeek": null
 }
