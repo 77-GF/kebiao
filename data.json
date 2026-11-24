@@ -785,8 +785,8 @@
       "room": "",
       "note": "",
       "day": 2,
-      "startSection": 3,
-      "endSection": 4,
+      "startSection": 1,
+      "endSection": 2,
       "weeks": [
         15
       ],
@@ -1174,5 +1174,5 @@
   ],
   "semesterStart": "2026-09-07",
   "totalWeeks": 20,
-  "viewWeek": 12
+  "viewWeek": 15
 }
